@@ -2,9 +2,9 @@
 
 !.zshrc
 !.gitignore
-!.scripts/
-!.config/waybar/
-!.config/sway/
-!.config/wofi/
-!.config/alacritty/
+!.scripts/*/
+!.config/waybar/*/
+!.config/sway/*/
+!.config/wofi/*/
+!.config/alacritty/*/
 
