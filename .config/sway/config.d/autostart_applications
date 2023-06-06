@@ -1,5 +1,5 @@
 # autotiling
-exec --no-startup-id autotiling
+# exec --no-startup-id autotiling
 
 # numlock
 input type:keyboard xkb_numlock enabled

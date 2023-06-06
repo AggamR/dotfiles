@@ -19,6 +19,11 @@ input "type:keyboard" {
     xkb_options grp:alt_shift_toggle
 }
 
+input "5426:103:Razer_Razer_Naga_Trinity" {
+	accel_profile flat
+	pointer_accel 0.2
+}
+
 exec_always {
     #'swaymsg input type:keyboard xkb_layout "$(localectl status | grep "X11 Layout" | sed -e "s/^.*X11 Layout://")"'
     #'swaymsg input type:keyboard xkb_variant "$(localectl status | grep "X11 Variant" | sed -e "s/^.*X11 Variant://")"'
